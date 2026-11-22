@@ -4,7 +4,7 @@ kind: ClusterConfig
 metadata:
   name: rahul-senapati-eks-cluster
   region: ap-south-1
-  version: "1.30"
+  version: "1.34"
 
 nodeGroups:
   - name: rahul-senapati-ng

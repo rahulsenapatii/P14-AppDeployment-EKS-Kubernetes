@@ -1,0 +1,14 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: rahul-senapati-eks-cluster
+  region: ap-south-1
+  version: "1.30"
+
+nodeGroups:
+  - name: rahul-senapati-ng
+    instanceType: t3.small
+    desiredCapacity: 2
+    minSize: 1
+    maxSize: 3
